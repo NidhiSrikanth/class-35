@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-      <title>Virtual Pet-1</title>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
-      <script src="p5.play.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
 
-         <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
@@ -17,22 +16,26 @@
 <script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
-    apiKey: "AIzaSyC-bHhd1VfNYZWM_FTGJCIWfb-1nqrBtvI",
-    authDomain: "virtual-pet-266cb.firebaseapp.com",
-    databaseURL: "https://virtual-pet-266cb.firebaseio.com",
-    projectId: "virtual-pet-266cb",
-    storageBucket: "virtual-pet-266cb.appspot.com",
-    messagingSenderId: "189290866856",
-    appId: "1:189290866856:web:c4fb4924c99c545962fa9d"
+    apiKey: "AIzaSyAy-0j5EQ95EjlYTcdo92LOiyooKvzuTDk",
+    authDomain: "multiplayer-car-racing-60918.firebaseapp.com",
+    databaseURL: "https://multiplayer-car-racing-60918.firebaseio.com",
+    projectId: "multiplayer-car-racing-60918",
+    storageBucket: "multiplayer-car-racing-60918.appspot.com",
+    messagingSenderId: "101518233378",
+    appId: "1:101518233378:web:433fb78636e5250dd9df7b"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 </script>
-        Initialize Firebase-->
 
-      <link rel="stylesheet" type="text/css" href="style.css"/>
-    </head>
-    <body>
+<script src="js/Player.js"></script>
+<script src="js/Game.js"></script>
+<script src="js/Form.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
       <script src="sketch.js"></script>
-    </body>
-  </html>
+  </body>
+</html>
